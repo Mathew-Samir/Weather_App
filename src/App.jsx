@@ -11,8 +11,8 @@ function App() {
       <BrowserRouter>
         <Navebar />
         <Routes>
-          <Route path='/Weather' element={<Weather/>} />
-          <Route path='/Weather1' element={<Weather1/>} />
+          <Route path='/' element={<Weather/>} />
+          <Route path='/Weather2' element={<Weather1/>} />
         </Routes>  
       </BrowserRouter>  
     </>
