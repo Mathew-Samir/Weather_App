@@ -47,3 +47,5 @@ const Weather1 = () => {
 }
 
 export default Weather1
+
+export default Weather1
