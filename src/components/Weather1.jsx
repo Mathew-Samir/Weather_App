@@ -22,6 +22,12 @@ const Weather1 = () => {
     return (
         <>
             <div className="w-full h-full relative">
+                <div className="mt-12">
+                    <img src="https://clipart-library.com/images_k/earth-transparent-clipart/earth-transparent-clipart-7.png"
+                    className="w-20 lg:w-24 rounded-full inline pb-8"/>
+                    <h1 className="text-3xl lg:text-4xl font-bold mb-4 inline"> Weather App</h1>
+                </div>
+                
                 <div className="text-center p-4">
                     <input
                         type="text" placeholder="Enter Location"
