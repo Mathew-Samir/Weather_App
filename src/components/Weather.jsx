@@ -49,7 +49,7 @@ const Weather = () => {
                 <input type="text"
                     placeholder="Enter city name"
                     className="border-slate-400 border-2 py-1.5 px-4 lg:px-12 rounded-bl-md rounded-tl-md 
-                    outline-none w-[65%] lg:w-[89%]"
+                    outline-none w-[55%] lg:w-[89%]"
                     onChange={(e) => { setCityName(e.target.value); }}
                 />
                 <button
